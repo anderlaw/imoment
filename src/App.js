@@ -1,16 +1,29 @@
 
 import React, { Component } from 'react';
-import Button from 'antd/lib/button';
-import './App.css';
+//公共样式
+import './common/main.css';
+
+
+import Header from './components/header'
+import Footer from './components/footer'
 
 class App extends Component {
+  state = {
+    current: 'mail',
+  }
+  handleClick = (e) => {
+    console.log('click ', e);
+    this.setState({
+      current: e.key,
+    });
+  }
   render() {
     return (
-      <div className="App">
-        <Button type="primary">Button</Button>
+      <div>
+        <Header/>
+        <Footer/>
       </div>
     );
   }
 }
-
-export default App;
+export default App
