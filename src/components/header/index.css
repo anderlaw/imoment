@@ -1,3 +1,30 @@
-body{
-    color:red;
+
+#header{
+}
+.ant-menu-horizontal{
+    margin-left:300px; 
+}
+/* 设置每个菜单的最小宽度 */
+.ant-menu-vertical{
+    min-width: 100px!important;
+}
+#logo{
+    height:46px;
+    width:300px;
+    position:absolute;
+    background-color: #001529;
+    float: left;
+}
+#logo .link{
+    display: inline-block;
+    padding-left:100px;
+    height: 46px;
+    width: 100%;
+}
+#logo img{
+    height:50px;
+}
+#content{
+    min-height: 400px;
+    padding:10px 100px;
 }
