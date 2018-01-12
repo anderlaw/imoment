@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 let service = axios.create({
-  baseURL:'https://www.easy-mock.com/mock/5a38c603868e781a07345785/example',
+  //baseURL:'https://www.easy-mock.com/mock/5a38c603868e781a07345785/example',
   timeout:7000,
 });
 //添加请求拦截器

@@ -5,3 +5,10 @@ html,body,#root{
 .tablebtncell button{
     margin: 0 10px;
 }
+.ant-table-thead > tr{
+    text-align: center !important;
+}
+.ant-table-thead > tr > th{
+    text-align: center;
+    background-color: #409eff !important;
+}
